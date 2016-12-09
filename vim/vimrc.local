@@ -1,0 +1,25 @@
+nnoremap ; :
+nnoremap <silent><BS> :nohlsearch<CR>
+
+set list lcs=trail:·,tab:»·
+
+"bind K to grep word under cursor
+nnoremap K :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
+
+augroup refreshVimrc
+    autocmd!
+    autocmd BufWritePost .vimrc source $MYVIMRC
+
+    autocmd BufWritePre *.js,*.css,*.html,*.vim silent %s/\s\+$//e
+augroup END
+
+" http://vim.wikia.com/wiki/Use_folds_in_your_program
+nnoremap <silent> <Space> @=(foldlevel('.')?'za':"\<Space>")<CR>
+vnoremap <Space> zf
+
+" Idea from :
+" http://www.charlietanksley.net/blog/blog/2011/10/18/vim-navigation-with-lustyexplorer-and-lustyjuggler/
+" " mnemonic 'jump to [something]'
+map ,js :CtrlP Content/js<CR>
+map ,jl :CtrlP Content/less<CR>
+map ,jp :CtrlP Views/partials<CR>
