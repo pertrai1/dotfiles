@@ -1,0 +1,10 @@
+{
+  "title": "Class chaining example",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "class Calc {\n  constructor() {\n    this.m_value = 0;\n  }\n  \n  add(value) {\n    this.m_value += value;\n    return this;\n  }\n  \n  sub(value) {\n    this.m_value -= value;\n    return this;\n  }\n  \n  mult(value) {\n    this.m_value *= value;\n    return this;\n  }\n  \n  getValue() {\n    return this.m_value;\n  }\n};\n\nconst calc = new Calc();\ncalc.add(5).sub(3).mult(4);\nconsole.log(`The value is: ${calc.getValue()}`);"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Debugging",
+  "cells": [
+    {
+      "type": "text",
+      "data": "Core Debugging Process<div>1. Reproduct</div><div>Find a way to reliably and conveniently reproduce the problem on demand</div><div>2. Diagnose</div><div>Construct hypotheses, and then test them by performing experiments until you are confident that you have identified the underlying cause of the bug</div><div>3. Fix</div><div>Design and implement changes that fix the problem, avoid introducing regressions, and maintain the overall quality of the software</div><div>4. Reflect</div><div>Learn the lessons of the bug. Where did things go wrong? Are there any other examples of the same problem that will also need fixing? What can you do to ensure that the same problem doesn’t happen again?</div><div><br></div><div>Reproducing is the most critical exercise of the system before changing any code</div><div>Determine and then control the variables</div><div><br></div><div>The software environment is anything that can affect its behavior</div>"
+    }
+  ]
+}

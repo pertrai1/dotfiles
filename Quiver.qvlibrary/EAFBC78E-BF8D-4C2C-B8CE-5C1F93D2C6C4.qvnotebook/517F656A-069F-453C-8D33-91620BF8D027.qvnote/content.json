@@ -1,0 +1,13 @@
+{
+  "title": "GSpice Live",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div>Example Live Akamai Video &nbsp;</div><a href=\"https://rev2-i.akamaihd.net/hls/live/258560/ee/test3/master3.m3u8?hdnts=exp=1495910906~acl=/hls/live/258560/ee/test3/*~hmac=6111cbc5c045821f0bf179c54c4a841c70bd5e4eea85226ea39105a1dac827d6\">https://rev2-i.akamaihd.net/hls/live/258560/ee/test3/master3.m3u8?hdnts=exp=1495910906~acl=/hls/live/258560/ee/test3/*~hmac=6111cbc5c045821f0bf179c54c4a841c70bd5e4eea85226ea39105a1dac827d6</a>&nbsp;"
+    },
+    {
+      "type": "text",
+      "data": "Notes from 9/30/2016 Meeting<div>1. Show the Live - 2nd view because of delay in Akamai</div><div>2. Take into account that multiple people could try to use same SIP. How do we know if the first person is the one who is supposed to be the presenter? If not the presenter, anyone who adds a SIP, check if there is already one being used and then direct person to live video</div><div>3. Need to take into consideration for access control if starting it as active or ability to change the settings<br><div><br></div></div>"
+    }
+  ]
+}

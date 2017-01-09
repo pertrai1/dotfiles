@@ -1,0 +1,29 @@
+{
+  "title": "Debugging",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<h2>Core Debugging Process</h2><h3>Reproduce</h3><div>Find a way to reliably and conveniently reproduce the problem on demand</div><h3>Diagnose</h3><div>Construct hypotheses - WHAT IS A HYPOTHESES?, and test them by performing experiments until you are confident that you have identified the underlying cause of the bug</div><div><br></div><h3>Check Source Control</h3><div>Check the commits that could have added the bug between when it used to work and when it does not. Always use Git Blame to see who introduced and talk with that person to find out what could have gone wrong.</div><h3>Fix</h3><div>Design and implement changes that fix the problem, avoid introducing regressions, and maintain or improve the overall quality of the software</div><h3>Reflect</h3><div>Learn the lessons of the bug. Where did things go wrong? Are there any other examples of the same problem that will also need fixing? What can you do to ensure that the same problem does not happen again?</div>"
+    },
+    {
+      "type": "text",
+      "data": "<ul><li>Before investing time and effort to construct and run an experiment, ask yourself what it’s going to tell you. What are the possible outcomes?</li><li>Keep a log of experiments tried and the results of those experiments</li><li>Keep a daybook for notes, design sketches, records of experiments</li><li>Don’t ignore anything. Even if it not something you were looking for, take note of what happened so you are not missing something that can raise its head in the future</li></ul>"
+    },
+    {
+      "type": "text",
+      "data": "<h2>Daybook</h2><div><ul><li>Writing out hypotheses</li><li>Keeping track of stack traces, argument values, and variable names</li><li>Keeping a list of ideas to try</li><li>Doodling</li></ul></div>"
+    },
+    {
+      "type": "text",
+      "data": "<img src=\"quiver-image-url/9D967D6170B35D5AF06BDB006EB2BA45.png\" alt=\"refine-reproduction.png\">"
+    },
+    {
+      "type": "text",
+      "data": "<img src=\"quiver-image-url/230545F36B3AF7B49AE20EEE9F7E01D6.png\" alt=\"debug-hypothesis.png\">"
+    },
+    {
+      "type": "text",
+      "data": ""
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "ZSH",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<a href=\"https://github.com/zsh-users/\">https://github.com/zsh-users/</a><div><a href=\"https://github.com/zsh-users/zsh-autosuggestions\">https://github.com/zsh-users/zsh-autosuggestions</a><br><div><br></div></div>"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": ". ~/dotfiles/bin/z.sh\nsource ~/.zsh-autosuggestions/zsh-autosuggestions.zsh\nsource ~/zsh-history-substring-search//zsh-history-substring-search.zsh\nbindkey '^T' autosuggest-execute\nbindkey -M vicmd 'k' history-substring-search-up\nbindkey -M vicmd 'j' history-substring-search-down"
+    }
+  ]
+}

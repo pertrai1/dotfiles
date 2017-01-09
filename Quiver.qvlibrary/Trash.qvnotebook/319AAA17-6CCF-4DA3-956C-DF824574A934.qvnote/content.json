@@ -1,0 +1,35 @@
+{
+  "title": "AV-13763 - Webcast Live Playback",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<a href=\"http://jira.vbrick.com/browse/AV-13763\">c</a>"
+    },
+    {
+      "type": "text",
+      "data": "<h3>Sub Tasks</h3><input type=\"checkbox\" checked=\"checked\">&nbsp;Disable Broadcast button until StartRecording message is received -&nbsp;<span style=\"color: rgb(34, 34, 34); font-family: Menlo, monospace; font-size: 11px; font-variant-ligatures: normal; orphans: 2; white-space: pre-wrap; widows: 2; background-color: rgb(255, 255, 255);\">!webcast.broadcast.isStarting &amp;&amp; !webcast.broadcast.isActive</span><div><div style=\"orphans: 2; widows: 2;\"><input type=\"checkbox\" checked=\"checked\">&nbsp;Disable Recording button until video has started - this should not be a button<font color=\"#222222\" face=\"Menlo, monospace\"><span style=\"font-size: 11px; white-space: pre-wrap; background-color: rgb(255, 255, 255);\"><br></span></font></div><div style=\"orphans: 2; widows: 2;\"><input type=\"checkbox\">&nbsp;Add logic to Recording button when the video has started recording<br></div><div style=\"orphans: 2; widows: 2;\"><input type=\"checkbox\">&nbsp;Enable Recording button when video starts<br></div><div><input type=\"checkbox\" checked=\"checked\">&nbsp;Show overlay in Video zone while generating stream -&nbsp;<span class=\"webkit-html-attribute-name\" style=\"min-width: 0px; min-height: 0px; box-sizing: border-box; color: rgb(34, 34, 34); unicode-bidi: -webkit-isolate; font-family: Menlo, monospace; font-size: 11px; font-variant-ligatures: normal; orphans: 2; white-space: pre-wrap; widows: 2;\">watch-dimensions</span><span style=\"color: rgb(34, 34, 34); font-family: Menlo, monospace; font-size: 11px; font-variant-ligatures: normal; orphans: 2; white-space: pre-wrap; widows: 2; background-color: rgb(255, 255, 255);\">=\"</span><span class=\"webkit-html-attribute-value\" style=\"min-width: 0px; min-height: 0px; box-sizing: border-box; color: rgb(34, 34, 34); unicode-bidi: -webkit-isolate; font-family: Menlo, monospace; font-size: 11px; font-variant-ligatures: normal; orphans: 2; white-space: pre-wrap; widows: 2;\">[vb-webcast-player] - ng-if on whether to show the player or generating component</span><br></div><div><input type=\"checkbox\" checked=\"checked\">&nbsp;Show initializing message<br></div><div><input type=\"checkbox\" checked=\"checked\">&nbsp;Show connecting message<br></div><div><input type=\"checkbox\" checked=\"checked\">&nbsp;Show generating message<br></div><div><input type=\"checkbox\">&nbsp;Make the icon for generating do a 360 repeat<br></div><div><input type=\"checkbox\">&nbsp;Separate HTML into component to add to the ng-if<br></div><div><input type=\"checkbox\">&nbsp;Fade out and show video player when stream is received - StartRecording<br></div><div><input type=\"checkbox\" checked=\"checked\">&nbsp;Always show the Recording button as red - might not need to be a button? but it is not clickable<br></div><div><input type=\"checkbox\">&nbsp;End Webcast will bring up modal<br></div><div><input type=\"checkbox\">&nbsp;If the Return to Video is clicked, remove the modal and continue to show the webcast<br></div><div><input type=\"checkbox\">&nbsp;If No is clicked, return user to Home<br></div><div><input type=\"checkbox\">&nbsp;If Yes is clicked, return user to video where the user will see the recording in a upload stage<br></div></div>"
+    },
+    {
+      "type": "text",
+      "data": "<h3>Error Conditions</h3><div><input type=\"checkbox\" checked=\"checked\">&nbsp;If can’t start - what to do with the communication? Brian said to fail and let admin send email<br></div><div><input type=\"checkbox\">&nbsp;If there is no connection, show the Recording as greyed out<br></div>"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "<div class=\"generating\">\n    This is the box\n</div>"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": ".generating {\n    position: relative;\n    top: 25%;\n    transform: translateY(-50%);\n    color: white;\n    height: 360px;\n    background: red;\n    width: 50%;\n}"
+    },
+    {
+      "type": "text",
+      "data": "<h3>Potential Defects</h3><div><input type=\"checkbox\">&nbsp;Noticed when I went to an event that was 30 minutes in the past that I was still able to start it -&nbsp;<a href=\"http://avenger.com:12345/#/events/258d7bd2-7cf4-452b-9263-628be85dde68\">http://avenger.com:12345/#/events/258d7bd2-7cf4-452b-9263-628be85dde68</a>&nbsp;pertrai1/Hannah*5_06<br></div><div><input type=\"checkbox\">&nbsp;When a event is updated, it does not show on the calendar<br></div>"
+    },
+    {
+      "type": "text",
+      "data": "<h3>Additional Fixes</h3><div><input type=\"checkbox\">&nbsp;Click on Video Address in settings gives focus to the input field<br></div>"
+    }
+  ]
+}

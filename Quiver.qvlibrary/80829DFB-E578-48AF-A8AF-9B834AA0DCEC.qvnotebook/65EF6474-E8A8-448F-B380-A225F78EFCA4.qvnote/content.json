@@ -1,0 +1,9 @@
+{
+  "title": "Git",
+  "cells": [
+    {
+      "type": "text",
+      "data": "Commits<div><a href=\"https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message\">https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message</a><br></div><div><a href=\"https://github.com/torvalds/linux/pull/17#issuecomment-5659933\">https://github.com/torvalds/linux/pull/17#issuecomment-5659933</a><br></div><div><br></div><div>Forcing Push</div><div><a href=\"https://developer.atlassian.com/blog/2015/04/force-with-lease/?utm_source=medium&amp;utm_medium=blog&amp;utm_campaign=lesser-git\">https://developer.atlassian.com/blog/2015/04/force-with-lease/?utm_source=medium&amp;utm_medium=blog&amp;utm_campaign=lesser-git</a><br></div>"
+    }
+  ]
+}

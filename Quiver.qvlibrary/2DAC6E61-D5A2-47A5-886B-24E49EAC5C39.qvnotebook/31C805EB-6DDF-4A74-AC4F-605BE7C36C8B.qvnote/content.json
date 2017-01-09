@@ -1,0 +1,17 @@
+{
+  "title": "Favorite Sites",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div>NODE</div><a href=\"http://nodeexamples.com/\">http://nodeexamples.com/</a>"
+    },
+    {
+      "type": "text",
+      "data": "CSS<div><a href=\"https://rachelandrew.co.uk/\">https://rachelandrew.co.uk/</a><br></div><div><a href=\"http://thewebahead.net/\">http://thewebahead.net/</a><br></div>"
+    },
+    {
+      "type": "text",
+      "data": "Browser Dev Tools<div><a href=\"https://developers.google.com/web/updates/2015/05/replay-a-network-request-in-curl\" class=\"\" style=\"font-family: -webkit-standard;\">https://developers.google.com/web/updates/2015/05/replay-a-network-request-in-curl</a><br></div>"
+    }
+  ]
+}

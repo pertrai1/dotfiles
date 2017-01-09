@@ -1,0 +1,14 @@
+{
+  "title": "Getters and Setters",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "var foo = \"foo\";\n\nvar obj = {\n  get[foo]() {\n    return \"bar\";\n  }\n}\n\nconsole.log(obj.foo)"
+    },
+    {
+      "type": "markdown",
+      "data": "1. The string `foo` is assigned to an alias foo in the environment - which here is the global\n2. A getter is assigned to the alias `obj` that when used will return the string `bar`. \n3. The getter is using an expression that allows for using the alias `foo` as the name of the getter"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Debug Log",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div>For each of the bugs that are listed, write out the bug and what could be causing it</div><div>For each cause, write out the files and functions where you think the cause is coming from, or just write that you don’t know</div><div>Pick the first possible cause with good file and function variables and set breakpoints there</div>"
+    }
+  ]
+}
