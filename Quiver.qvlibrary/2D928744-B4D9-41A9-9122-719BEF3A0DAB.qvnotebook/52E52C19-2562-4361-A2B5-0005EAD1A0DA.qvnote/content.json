@@ -1,0 +1,10 @@
+{
+  "title": "Class Static",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "class Name {\n  static firstName = \"Rob\"\n  \n  constructor() {\n    \n  }\n};\n\nconsole.log(Name.firstName);"
+    }
+  ]
+}
