@@ -1,9 +1,0 @@
-{
-  "title": "Development Environment",
-  "cells": [
-    {
-      "type": "markdown",
-      "data": "#MacVim Notes\n\nhttps://github.com/macvim-dev/macvim/wiki/FAQ\n\ndefaults write org.vim.MacVim MMZoomBoth 1\n\nfor mvim, copy to $PATH - /usr/local/bin\n\n##iTerm\n\nhttps://www.undefinednull.com/2015/07/31/iterm-tips-and-zsh-plugins-for-better-development-environment/\n\n##ZSH\n\nhttps://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH\n\nmake default shell: chsh -s $(which zsh)\n\noh-my-zsh: sh -c \"$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)\"\n\nhttps://github.com/rupa/z\n\n. /path/to/z.sh - into .zshrc\n\n##NVM\n\ncurl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.7/install.sh | zsh\n\n##Vim\n\nVundler: git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim\n\nhttps://github.com/VundleVim/Vundle.vim\n\n##Sublime Text\n\nPackage:\n\n*BufferScroll\n*AceJump\n*Hide Sidebar When Not Focused\n*Focus File on Sidebar\n\n##Development Cycle\n*Elaboration\n*Coding\n*Testing\n*Refactor\n\n##Git\n\nhttps://robots.thoughtbot.com/git-bisect\n\n##Extras\n\nOceanic Next Color Theme - https://packagecontrol.io/packages/Oceanic%20Next%20Color%20Scheme?\\_\\_s=giae1182hckkoykzq3xb"
-    }
-  ]
-}

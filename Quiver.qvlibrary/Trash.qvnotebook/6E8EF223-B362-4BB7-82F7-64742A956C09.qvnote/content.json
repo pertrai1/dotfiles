@@ -1,9 +1,0 @@
-{
-  "title": "Angular 1x State Change",
-  "cells": [
-    {
-      "type": "text",
-      "data": "<code></code>​​<code>$scope.$on('$stateChangeStart', function(event, toState, toParams, fromState, fromParams) {\t\t$scope.isStateLoading = true;\t});\t$scope.$on('$stateChangeSuccess', function(event, toState, toParams, fromState, fromParams) {\t\t$scope.isStateLoading = false;\t});</code><div></div>"
-    }
-  ]
-}

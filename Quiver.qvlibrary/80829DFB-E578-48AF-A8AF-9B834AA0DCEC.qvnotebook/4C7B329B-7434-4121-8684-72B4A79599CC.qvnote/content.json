@@ -1,9 +1,0 @@
-{
-  "title": "Vim Leaders",
-  "cells": [
-    {
-      "type": "text",
-      "data": "<div>VIM</div><div>SHORTCUTS</div><div><br></div><div>&lt;leader&gt;b = BuffergatorToggle</div><div>&lt;leader&gt;m = CtrlPMixed</div><div>&lt;leader&gt;n = NERDTreeToggle</div><div>&lt;leader&gt;p = CtrlP</div><div>&lt;leader&gt;r = TernRefs</div><div>&lt;leader&gt;t = TernDef</div><div><br></div><div>Plugins</div><div>NERDTree - https://github.com/scrooloose/nerdtree</div><div>CTRLP - https://github.com/kien/ctrlp.vim</div><div>:help ctrlp-commands</div><div>:help ctrlp-options</div><div><br></div><div>YouCompleteMe</div><div>Ctrl-O - Jump Back</div><div>Ctrl-I - Jump Forward</div><div>:h jumplist</div><div><br></div><div>https://github.com/ggreer/the_silver_searcher</div><div>brew install the_silver_searcher</div><div>brew install automake pkg_config pcre xz</div><div><br></div><div>Ack</div><div>https://github.com/mileszs/ack.vim</div><div><br></div><div>Git</div><div>https://github.com/tpope/vim-fugitive</div><div><br></div><div>TagBar</div><div>https://majutsushi.github.io/tagbar/</div><div>nmap &lt;F8&gt; :TagbarToggle&lt;CR&gt;</div><div><br></div><div>CTags</div><div>brew install ctags</div><div>which ctags</div><div>check .zshrc for correct path not commented out</div><div>reference: http://scholarslab.org/research-and-development/code-spelunking-with-ctags-and-vim/</div><div>Auto Tags: https://github.com/xolox/vim-easytags</div>"
-    }
-  ]
-}

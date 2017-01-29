@@ -1,9 +1,0 @@
-{
-  "title": "October 5, 2016",
-  "cells": [
-    {
-      "type": "text",
-      "data": "<div><b>3:40pm - Code Coverage bug</b></div>Had a bug where code coverage was causing a bunch of code to be put into the production js file. First I found that I was on a dirty branch and did not notice until Kevin told me and then I went to look at GitHub and he was right. Should have taken the time to find out how to look at history better for a certain file. I did not take every case into consideration when adding the code coverage which led to this extra code being added to the production file."
-    }
-  ]
-}

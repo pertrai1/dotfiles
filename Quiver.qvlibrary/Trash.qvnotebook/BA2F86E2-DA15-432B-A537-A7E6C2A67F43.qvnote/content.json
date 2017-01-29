@@ -1,9 +1,0 @@
-{
-  "title": "October 17, 2016",
-  "cells": [
-    {
-      "type": "text",
-      "data": "Today was a bit frustrating trying to put together logic that would allow 2 buttons to open and close 2 different div’s using Angular. I have tried to comprehend what it is that would need to happen when you ng-click one button it should open the state of that div and the other div should not be open. But then if you click the other button, it should close the other div and open itself. Each div has to be able to open itself and make sure the other is closed. Once I can figure that out then this story is mostly closed."
-    }
-  ]
-}

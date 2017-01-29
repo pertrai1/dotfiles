@@ -1,9 +1,0 @@
-{
-  "title": "Environments and Links",
-  "cells": [
-    {
-      "type": "text",
-      "data": "<div>http://qa-logstash.vbrick.com:5601/app/kibana#/discover</div><div>username: guestuser</div><div>password: P4uSefru*a</div><div>gs- AND NOT \"gs-mph\"</div><div><br></div><div><br></div><div>646 084 853</div><div>then once you are connected over the web, you can record with igor.birmanvbrick.com@vbrick.webex.com</div><div><br></div><div>Network Password</div><div>h573b5RP</div><div><br></div><div>http://qa-w12-rev-05a.lab.vb.loc/#/events/865dd707-c6a1-4d5f-b554-ef2cbcc19b89/reports</div><div>username: aa</div><div>password: vb</div><div><br></div><div>https://qa75.rev.vbrick.com/#/</div><div>username: aa</div><div>password: vbqavbqa</div><div><br></div><div>[12:18 PM] Ying Jin: david    /   vbqavbqa</div><div>[12:18 PM] Ying Jin: http://qa-w12-avg-19d.lab.vb.loc/#</div><div><br></div><div>QA Builds</div><div>http://qa.it-service.vb.loc/</div><div><br></div><div>Jenkins</div><div>http://jenkins.lab.vb.loc:8080/</div><div><br></div><div>Confluence</div><div>http://confluence.vbrick.com/</div><div><br></div><div>AWS Console</div><div>https://console.aws.amazon.com/ecs/home?region=us-east-1#/clusters/gspice/tasks</div><div><br></div><div>WebEx</div><div>646 084 853</div><div>igor.birmanvbrick.com@vbrick.webex.com</div><div><br></div><div>Remote Desktop </div><div>license server: dev-w12-license-02.lab.vb.loc</div><div>username: .\\administrator</div><div>password: Changeme1</div><div>&nbsp;</div><div><br></div><div>Windows access to folders</div><div>\\\\qa-31.vb.loc\\c$</div><div><br></div><div>cat //qa-w12-rev-31a.lab.vb.loc/c$/Avenger.Data/Logs/log.xml //qa-w12-rev-31b.lab.vb.loc/c$/Avenger.Data/Logs/log.xml //qa-w12-rev-31c.lab.vb.loc/c$/Avenger.Data/Logs/log.xml > log31.xml</div>"
-    }
-  ]
-}
