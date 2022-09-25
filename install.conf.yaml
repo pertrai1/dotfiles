@@ -22,6 +22,7 @@
     ~/.config/nvim/after:
       glob: true
       path: config/nvim/after/*
+    ~/.config/lazygit/config.yml: config/lazygit/config.yml
 
 - shell:
     - [
