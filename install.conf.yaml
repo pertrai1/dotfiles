@@ -23,6 +23,9 @@
       glob: true
       path: config/nvim/after/*
     ~/.config/lazygit/config.yml: config/lazygit/config.yml
+    ~/.config/ranger:
+      glob: true
+      path: config/ranger/*
 
 - shell:
     - [
