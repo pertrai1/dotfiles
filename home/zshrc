@@ -111,6 +111,7 @@ alias ohmyzsh="vim ~/.oh-my-zsh"
 alias preview="fzf --preview 'bat {-1} --color=always'"
 alias fd="~/.local/bin/tmux-sessionizer"
 alias cht="~/.local/bin/cht.sh --shell"
+alias fg="~/.local/bin/fzf-git-log.sh"
 
 # fd() {
 # preview="git diff $@ --color=always -- {-1}"
