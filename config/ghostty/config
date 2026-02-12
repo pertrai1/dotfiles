@@ -1,0 +1,91 @@
+# ============================================================================
+# Ghostty Terminal Configuration
+# Optimized for Developer Experience
+# ============================================================================
+
+# Theme
+theme = TokyoNight Night
+
+# ============================================================================
+# Font Configuration
+# ============================================================================
+# Use a developer-friendly font with ligatures
+# Popular options: JetBrains Mono, Fira Code, Cascadia Code, SF Mono
+font-size = 13
+
+# Font features for better code readability
+font-feature = ss01  # Stylistic set 1 (ligatures)
+font-feature = calt   # Contextual alternates
+
+# Font rendering
+font-thicken = true
+
+# ============================================================================
+# Shell Integration (zsh)
+# ============================================================================
+shell-integration = zsh
+shell-integration-features = cursor,sudo,title
+
+# ============================================================================
+# Window Appearance
+# ============================================================================
+# Window padding for better visual comfort
+window-padding-x = 12
+window-padding-y = 12
+window-padding-balance = true
+
+# Transparency (macOS) - adjust to preference
+background-opacity = 0.9
+unfocused-split-opacity = 0.8
+
+# Window decorations
+window-decoration = true
+window-theme = auto
+
+# Title
+# title = Ghostty
+
+# ============================================================================
+# Performance & Scrolling
+# ============================================================================
+scrollback-limit = 10000
+mouse-scroll-multiplier = 3
+
+# ============================================================================
+# Cursor Configuration
+# ============================================================================
+cursor-style = block
+cursor-style-blink = true
+cursor-color = #c0caf5
+cursor-invert-fg-bg = true
+
+# ============================================================================
+# Mouse & Selection
+# ============================================================================
+mouse-hide-while-typing = true
+copy-on-select = false
+clipboard-read = allow
+clipboard-write = allow
+
+# ============================================================================
+# Terminal Behavior
+# ============================================================================
+# Confirm before closing
+confirm-close-surface = false
+quit-after-last-window-closed = false
+
+# Auto-update
+auto-update = check
+
+# ============================================================================
+# Advanced Settings
+# ============================================================================
+# Bold text styling
+bold-is-bright = true
+
+# Underline styling
+adjust-underline-position = 2
+adjust-underline-thickness = 150%
+
+# Focus follows mouse
+focus-follows-mouse = false
