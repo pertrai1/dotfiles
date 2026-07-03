@@ -1,0 +1,17 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "mdn": {
+      "type": "remote",
+      "url": "https://mcp.mdn.mozilla.net/"
+    },
+    "llm-core": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "eslint-plugin-llm-core-mcp"
+      ]
+    }
+  }
+}

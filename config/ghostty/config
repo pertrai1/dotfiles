@@ -14,8 +14,9 @@ theme = TokyoNight Night
 font-size = 13
 
 # Font features for better code readability
-font-feature = ss01  # Stylistic set 1 (ligatures)
-font-feature = calt   # Contextual alternates
+# font-family = "Hasklug Nerd Font"
+font-family = "BlexMono Nerd Font Mono"
+font-feature = "calt, liga, dlig"
 
 # Font rendering
 font-thicken = true
@@ -35,7 +36,7 @@ window-padding-y = 12
 window-padding-balance = true
 
 # Transparency (macOS) - adjust to preference
-background-opacity = 0.9
+background-opacity = 1
 unfocused-split-opacity = 0.8
 
 # Window decorations
