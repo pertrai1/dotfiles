@@ -457,7 +457,7 @@ tmux_conf_uninstall_plugins_on_reload=true
 set -g @plugin 'tmux-plugins/tmux-resurrect'
 set -g @plugin 'tmux-plugins/tmux-continuum'
 set -g @plugin "janoamaral/tokyo-night-tmux"
-set -g @plugin "sainhe/tmux-fzf"
+set -g @plugin "sainnhe/tmux-fzf"
 set -g @plugin "christoomey/vim-tmux-navigator"
 set -g @continuum-restore 'on'
 
@@ -477,6 +477,20 @@ set -g @continuum-restore 'on'
 set -g @tokyo-night-tmux_show_git 1
 set -g @tokyo-night-tmux_show_battery 1
 set -g @tokyo-night-tmux_show_path 1
+
+# -- tmux-fzf --------------------------------------------------------------
+
+# faster popup, smaller footprint
+TMUX_FZF_OPTIONS="-p -w 62% -h 38% -m"
+
+# drop clipboard/process noise, keep what's actually used
+TMUX_FZF_ORDER="session|window|pane|command|keybinding"
+
+# show what's running in each pane/window, not just numbers
+TMUX_FZF_PANE_FORMAT="[#{window_name}] #{pane_current_command}  [#{pane_width}x#{pane_height}] #{?pane_active,[active],[inactive]}"
+
+# allow switching back to the current session/window/pane too
+TMUX_FZF_SWITCH_CURRENT=1
 set -g @tokyo-night-tmux_show_hostname 1
 
 # # /!\ do not remove the following line
