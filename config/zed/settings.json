@@ -1,0 +1,210 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "cli_default_open_behavior": "existing_window",
+  "code_lens": "on",
+  "collaboration_panel": {
+    "dock": "right"
+  },
+  "diagnostics": {
+    "inline": {
+      "enabled": true
+    }
+  },
+  "terminal": {
+    "font_size": 12.0,
+    "copy_on_select": true
+  },
+  "buffer_line_height": "comfortable",
+  "agent_servers": {
+    "opencode": {
+      "default_config_options": {
+        "effort": "xhigh",
+        "model": "opencode/mimo-v2.5-free",
+        "mode": "plan"
+      },
+      "favorite_config_option_values": {
+        "model": ["opencode/deepseek-v4-flash-free", "opencode/mimo-v2.5-free"]
+      },
+      "type": "registry"
+    },
+    "github-copilot-cli": {
+      "type": "registry"
+    },
+    "gemini": {
+      "type": "registry"
+    },
+    "codex-acp": {
+      "type": "registry"
+    },
+    "claude-acp": {
+      "type": "registry"
+    }
+  },
+  "which_key": {
+    "enabled": true
+  },
+  "context_servers": {},
+  "use_system_window_tabs": false,
+  "bottom_dock_layout": "contained",
+  "preview_tabs": {
+    "enable_preview_from_project_panel": true,
+    "enable_keep_preview_on_code_navigation": true,
+    "enable_preview_from_file_finder": true
+  },
+  "file_finder": {
+    "modal_max_width": "medium"
+  },
+  "tabs": {
+    "file_icons": true,
+    "git_status": true,
+    "show_diagnostics": "errors"
+  },
+  "cursor_blink": false,
+  "title_bar": {
+    "show_branch_status_icon": true,
+    "show_menus": false,
+    "show_onboarding_banner": true,
+    "show_project_items": true
+  },
+  "toolbar": {
+    "agent_review": true,
+    "code_actions": false,
+    "quick_actions": false,
+    "breadcrumbs": true
+  },
+  "inlay_hints": {
+    "enabled": true
+  },
+  "tab_size": 2,
+  "minimap": {
+    "show": "never"
+  },
+  "sticky_scroll": {
+    "enabled": false
+  },
+  "scrollbar": {
+    "show": "never"
+  },
+  "indent_guides": {
+    "enabled": true,
+    "coloring": "indent_aware"
+  },
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Material Icon Theme",
+    "dark": "Material Icon Theme"
+  },
+  "agent": {
+    "dock": "left",
+    "default_profile": "write",
+    "tool_permissions": {
+      "default": "confirm",
+      "tools": {
+        "terminal": {
+          "default": "confirm",
+          "always_deny": [
+            {
+              "pattern": "rm\\s+-rf\\s+(/|~)"
+            },
+            {
+              "pattern": "(^|\\s)(cat|sed|grep|rg)\\s+.*\\.(env|pem|key)(\\s|$)"
+            }
+          ],
+          "always_confirm": [
+            {
+              "pattern": "sudo\\s"
+            },
+            {
+              "pattern": "(npm|pnpm|yarn|bun)\\s+(install|add|dlx|exec|x)\\b"
+            },
+            {
+              "pattern": "gh\\s+(auth|api|repo|release|pr|issue)\\b"
+            }
+          ]
+        },
+        "edit_file": {
+          "always_deny": [
+            {
+              "pattern": "\\.env"
+            },
+            {
+              "pattern": "\\.(pem|key|p12|pfx)$"
+            }
+          ]
+        }
+      }
+    },
+    "model_parameters": [],
+    "default_model": {
+      "effort": "high",
+      "enable_thinking": true,
+      "provider": "copilot_chat",
+      "model": "gpt-5.4"
+    }
+  },
+  "edit_predictions": {
+    "provider": "copilot",
+    "mode": "eager", // "eager" | "subtle"
+    "copilot": {
+      "proxy": null,
+      "proxy_no_verify": null
+    },
+    "enabled_in_text_threads": true
+  },
+  "show_edit_predictions": true,
+  "vim_mode": true,
+  "vim": {
+    "gdefault": true,
+    "use_smartcase_find": true,
+    "use_system_clipboard": "always"
+  },
+  "ui_font_size": 15.0,
+  "buffer_font_size": 13.0,
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Tokyo Night"
+  },
+  "git_panel": {
+    "tree_view": true,
+    "dock": "right"
+  },
+  "project_panel": {
+    "dock": "right",
+    "button": true,
+    "git_status": true
+  },
+  "outline_panel": {
+    "dock": "right"
+  },
+  "file_scan_exclusions": [
+    "**/.git",
+    "**/.svn",
+    "**/.hg",
+    "**/CVS",
+    "**/.DS_Store",
+    "**/Thumbs.db",
+    "**/.classpath",
+    "**/.settings",
+    // above is default from Zed
+    "**/out",
+    "**/dist",
+    "**/.husky",
+    "**/.turbo",
+    "**/.vscode-test",
+    "**/.vscode",
+    "**/.next",
+    "**/.storybook",
+    "**/.tap",
+    "**/.nyc_output",
+    "**/report",
+    "**/node_modules"
+  ]
+}

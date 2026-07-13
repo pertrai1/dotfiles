@@ -1,0 +1,113 @@
+[
+  {
+    "context": "(VimControl && !menu)",
+    "bindings": {
+      "space": null
+    }
+  },
+  {
+    "context": "Editor && VimControl && !VimWaiting && !menu",
+    "bindings": {
+      "shift-k": "editor::Hover",
+      "space b": "git::Blame",
+      "space e": "workspace::ToggleRightDock",
+      "space o": "tab_switcher::Toggle",
+      "tab": "tab_switcher::Toggle",
+      "space ;": "file_finder::Toggle",
+      "space space": "file_finder::Toggle",
+      "space '": "command_palette::Toggle",
+      "space s f": "text_finder::Toggle",
+      "g b": "editor::ToggleComments",
+      "space g": ["task::Spawn", { "task_name": "LazyGit" }],
+      "space y": ["task::Spawn", { "task_name": "yazi" }]
+    }
+  },
+  {
+    "context": "Editor && vim_mode == normal && !VimWaiting && !menu",
+    "bindings": {
+      "space c a": "editor::ToggleCodeActions",
+      "space .": "editor::ToggleCodeActions",
+      "space c r": "editor::Rename",
+      "space f": null,
+      "space f f": "file_finder::Toggle",
+      "space f s": "workspace::Save",
+      "g d": "editor::GoToDefinition",
+      "g D": "editor::GoToDefinitionSplit",
+      "g i": "editor::GoToImplementation",
+      "g I": "editor::GoToImplementationSplit",
+      "g t": "editor::GoToTypeDefinition",
+      "g T": "editor::GoToTypeDefinitionSplit",
+      "g r": "editor::FindAllReferences",
+      "] d": "editor::GoToDiagnostic",
+      "[ d": "editor::GoToPreviousDiagnostic",
+      "z z": "editor::ScrollCursorCenter",
+      "s s": "outline::Toggle",
+      "s S": "project_symbols::Toggle",
+      "shift-h": "pane::ActivatePreviousItem",
+      "shift-l": "pane::ActivateNextItem",
+      "space /": "pane::DeploySearch",
+      "space e": "workspace::ToggleRightDock",
+      "space E": "pane::RevealInProjectPanel",
+      "ctrl-s": "workspace::Save",
+      "ctrl-o": "pane::GoBack",
+      "ctrl-p": "pane::GoForward"
+    }
+  },
+  {
+    "context": "Editor && (vim_mode == normal || vim_mode == visual) && !VimWaiting && !menu",
+    "bindings": {
+      "space m p": "markdown::OpenPreview",
+      "space m P": "markdown::OpenPreviewToTheSide",
+      "space s w": "pane::DeploySearch",
+      "space a": null,
+      "space a a": "agent::FocusAgent",
+      "space a n": "agent::NewThread",
+      "space a c": "agent::AddSelectionToThread",
+      "space a d": "agent::OpenAgentDiff",
+      "space a m": "agent::ToggleModelSelector",
+      "space a p": "agent::ToggleProfileSelector",
+      "ctrl-s": "workspace::Save"
+    }
+  },
+  {
+    "context": "Editor && vim_mode == insert && !menu",
+    "bindings": {
+      "ctrl-s": "workspace::Save"
+    }
+  },
+  {
+    "context": "Dock || Terminal || Editor",
+    "bindings": {
+      "ctrl-h": "workspace::ActivatePaneLeft",
+      "ctrl-l": "workspace::ActivatePaneRight",
+      "ctrl-k": "workspace::ActivatePaneUp",
+      "ctrl-j": "workspace::ActivatePaneDown"
+    }
+  },
+  {
+    "context": "Editor && vim_mode == visual && !VimWaiting && !VimObject",
+    "bindings": {
+      "shift-j": "editor::MoveLineDown",
+      "shift-k": "editor::MoveLineUp"
+    }
+  },
+  {
+    "context": "EmptyPane || SharedScreen",
+    "bindings": {
+      "space space": "file_finder::Toggle"
+    }
+  },
+  {
+    "context": "ProjectPanel && not_editing",
+    "bindings": {
+      "a": "project_panel::NewFile",
+      "A": "project_panel::NewDirectory",
+      "r": "project_panel::Rename",
+      "d": "project_panel::Delete",
+      "D": "project_panel::Duplicate",
+      "c": "project_panel::Copy",
+      "p": "project_panel::Paste",
+      "q": "workspace::ToggleLeftDock"
+    }
+  }
+]
