@@ -9,8 +9,15 @@
     "context": "Editor && VimControl && !VimWaiting && !menu",
     "bindings": {
       "shift-k": "editor::Hover",
-      "space b": "git::Blame",
+      "space g b": "git::Blame",
+      "space g l": [
+        "task::Spawn",
+        {
+          "task_name": "LazyGit"
+        }
+      ],
       "space e": "workspace::ToggleRightDock",
+      "space b": "workspace::ToggleRightDock",
       "space o": "tab_switcher::Toggle",
       "tab": "tab_switcher::Toggle",
       "space ;": "file_finder::Toggle",
@@ -18,8 +25,12 @@
       "space '": "command_palette::Toggle",
       "space s f": "text_finder::Toggle",
       "g b": "editor::ToggleComments",
-      "space g": ["task::Spawn", { "task_name": "LazyGit" }],
-      "space y": ["task::Spawn", { "task_name": "yazi" }]
+      "space y": [
+        "task::Spawn",
+        {
+          "task_name": "yazi"
+        }
+      ]
     }
   },
   {
@@ -47,10 +58,12 @@
       "shift-l": "pane::ActivateNextItem",
       "space /": "pane::DeploySearch",
       "space e": "workspace::ToggleRightDock",
+      "space b": "workspace::ToggleLeftDock",
       "space E": "pane::RevealInProjectPanel",
       "ctrl-s": "workspace::Save",
       "ctrl-o": "pane::GoBack",
-      "ctrl-p": "pane::GoForward"
+      "ctrl-p": "pane::GoForward",
+      "space p": "diagnostics::Deploy"
     }
   },
   {

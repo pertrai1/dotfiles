@@ -50,7 +50,17 @@
   "which_key": {
     "enabled": true
   },
-  "context_servers": {},
+  "context_servers": {
+    "mcp-server-context7": {
+      "enabled": true,
+      "remote": false,
+      "settings": {}
+    },
+    "mcp-server-github": {
+      "enabled": true,
+      "settings": {}
+    }
+  },
   "use_system_window_tabs": false,
   "bottom_dock_layout": "contained",
   "preview_tabs": {
@@ -75,9 +85,12 @@
   },
   "toolbar": {
     "agent_review": true,
-    "code_actions": false,
-    "quick_actions": false,
-    "breadcrumbs": true
+    "code_actions": true,
+    "quick_actions": true,
+    "breadcrumbs": false
+  },
+  "gutter": {
+    "folds": true
   },
   "inlay_hints": {
     "enabled": true
@@ -102,6 +115,9 @@
     "dark": "Material Icon Theme"
   },
   "agent": {
+    "sandbox_permissions": {
+      "network_hosts": ["zed.dev"]
+    },
     "dock": "left",
     "default_profile": "write",
     "tool_permissions": {
@@ -155,15 +171,15 @@
     "copilot": {
       "proxy": null,
       "proxy_no_verify": null
-    },
-    "enabled_in_text_threads": true
+    }
   },
   "show_edit_predictions": true,
   "vim_mode": true,
   "vim": {
     "gdefault": true,
     "use_smartcase_find": true,
-    "use_system_clipboard": "always"
+    "use_system_clipboard": "always",
+    "highlight_on_yank_duration": 800
   },
   "ui_font_size": 15.0,
   "buffer_font_size": 13.0,
@@ -172,14 +188,19 @@
     "light": "One Light",
     "dark": "Tokyo Night"
   },
+  "theme_overrides": {
+    "Tokyo Night": {}
+  },
   "git_panel": {
     "tree_view": true,
     "dock": "right"
   },
   "project_panel": {
+    "diagnostic_badges": true,
     "dock": "right",
     "button": true,
-    "git_status": true
+    "git_status": true,
+    "show_diagnostics": "all"
   },
   "outline_panel": {
     "dock": "right"
